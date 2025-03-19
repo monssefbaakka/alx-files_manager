@@ -19,6 +19,7 @@ class AppController {
    * should return the number of users and files in DB:
    * { "users": 12, "files": 1231 }
    *  with a status code 200
+   *
    */
   static async getStats(request, response) {
     const stats = {
